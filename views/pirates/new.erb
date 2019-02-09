@@ -1,1 +1,17 @@
 <h1>Make your form here</h1>
+
+<form method="POST" action="pirates">
+    <p>Create your pirate here!</p>
+    <textarea type="text" name="pirate[name]">Name</textarea>
+    <textarea type="text" name="pirate[weight]">Weight</textarea>
+    <textarea type="text" name="pirate[height]">Height</textarea>
+    <input id="ship_name_1" type="text" name="pirate[ships][][name]" >
+    <input id="ship_type_1" type="text" name="pirate[ships][][type]" >
+    <input id="ship_booty_1" type="text" name="pirate[ships][][booty]" >
+
+    <input id="ship_name_2" type="text" name="pirate[ships][][name]" >
+    <input id="ship_type_2" type="text" name="pirate[ships][][type]" >
+    <input id="ship_booty_2" type="text" name="pirate[ships][][booty]" >
+    <button type="submit" name="submit" id="Submit">
+    
+</form>
