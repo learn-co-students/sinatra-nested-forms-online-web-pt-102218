@@ -12,6 +12,9 @@ module FormsLab
     get '/new' do
     end
 
+    post '/pirates' do
+    end
+
 
   end
 end
