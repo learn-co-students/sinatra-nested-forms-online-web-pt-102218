@@ -6,7 +6,6 @@ module FormsLab
     # code other routes/actions here
 
     get '/' do
-      binding.pry
       erb :root
     end
 
