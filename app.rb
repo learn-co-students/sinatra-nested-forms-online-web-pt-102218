@@ -15,7 +15,8 @@ module FormsLab
 
 
     post '/pirates' do
-      pirate = Pirate.create(name: params[:pirate][:name], height: params[:pirate][:height], weight: params[:pirate][:weight])
+      binding.pry
+      pirate = Pirate.create(name: params[:pirate][:name], weight: params[:pirate][:weight], height: params[:pirate][:height])
       params[:pirate][:ships].each do |details|
         Ship.create(details)
         ship.pirate = pirate

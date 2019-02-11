@@ -1,4 +1,4 @@
-class Pirate
+class Pirate < ActiveRecord::Base
 
   attr_reader :name, :weight, :height
 
