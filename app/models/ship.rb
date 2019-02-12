@@ -1,4 +1,4 @@
-class Ship < ActiveRecord::Base
+class Ship
 
   attr_reader :name, :type, :booty
 
