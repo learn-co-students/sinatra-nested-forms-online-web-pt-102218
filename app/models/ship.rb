@@ -3,11 +3,11 @@ class Ship
 
   @@all = []
 
-  def initialize(args)
-    @name = args[:name]
-    @type = args[:type]
-    @booty = arg[:booty]
-    @@SHIPS << self
+  def initialize(hash)
+    @name = hash[:name]
+    @type = hash[:type]
+    @booty = hash[:booty]
+    @@all << self
   end
 
   def self.all
