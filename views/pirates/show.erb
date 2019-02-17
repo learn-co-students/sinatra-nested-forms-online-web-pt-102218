@@ -7,6 +7,11 @@
 
 
 <h2>Display your first ship here</h2>
-
-
+  <div class="ships">
+    <%@@SHIPS.each do |ship|%>
+    <div class="ships">
+    <p>Ship 1 Name: <%=ship.name%>
+    <p>Ship 1 Type : <%=ship.type%>
+    <p>Ship 1 Booty: <%=ship.booty%>
+      <%end%>
 <h2>Display your second ship here</h2>
