@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem 'sinatra', require: 'sinatra/base'
-gem 'sinatra-reloader', require: false
+gem 'sinatra', '<2.0', require: 'sinatra/base'
+#gem 'sinatra-reloader', require: false
 gem 'shotgun'
 gem 'pry'
 gem 'tux'
